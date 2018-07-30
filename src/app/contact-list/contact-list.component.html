@@ -1,0 +1,21 @@
+<h1>
+  Dogs
+</h1>
+
+<div>
+    <table style="width:100%">
+        <tr>
+          <th>Name</th>
+          <th>Breed</th>
+          <th>Color</th>
+          <th>Age</th>  
+        </tr>
+        <tr *ngFor="let contact of contacts">
+          <td> {{ contact.name }} </td>
+          <td> {{ contact.breed }} </td>
+          <td> {{ contact.color }} </td>
+          <td> {{ contact.age }} </td>
+        </tr>
+
+      </table> 
+</div>

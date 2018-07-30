@@ -1,1 +1,3 @@
-# angular-django-front
+# Angular Django
+
+ ng serve
